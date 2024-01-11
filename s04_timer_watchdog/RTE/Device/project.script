@@ -1,0 +1,7 @@
+load STM32F407VGTx 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path "C:\Users\Oktay\Desktop\ders_arm_cubemx\s04_timer_watchdog\RTE\Device\STM32F407VGTx\" 
+set tpl_path "C:\Users\Oktay\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\MDK\CubeMX" 
+set dest_path "STM32F407VGTx" 
+SetCopyLibrary  "copy as reference"

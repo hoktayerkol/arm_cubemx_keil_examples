@@ -1,0 +1,2 @@
+--create .\Objects\led_blinking.lib
+.\objects\main.o

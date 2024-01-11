@@ -1,0 +1,75 @@
+	TIM_OC_InitTypeDef myPWM;
+	myPWM.OCMode = TIM_OCMODE_PWM1;
+	myPWM.OCPolarity = TIM_OCPOLARITY_HIGH;
+	myPWM.Pulse = 50;
+	HAL_TIM_PWM_ConfigChannel(&htim4, &myPWM, TIM_CHANNEL_2);
+	HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_2);
+
+**************************************************************************
+
+	TIM_OC_InitTypeDef myPWM;
+	myPWM.OCMode = TIM_OCMODE_PWM1;
+	myPWM.OCPolarity = TIM_OCPOLARITY_HIGH;
+	HAL_TIM_PWM_ConfigChanne2(&htim4, &myPWM, TIM_CHANNEL_2);
+	
+	uint32_t pulse_chnl1 = 0;
+	
+  while (1)
+  {
+		HAL_TIM_PWM_Stop(&htim4, TIM_CHANNEL_2);
+		pulse_chnl2+=40;
+		myPWM.Pulse=pulse_chnl2;
+		HAL_TIM_PWM_ConfigChannel(&htim4, &myPWM, TIM_CHANNEL_2);
+		HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_2);
+		HAL_Delay(100);
+		if (pulse_chnl2>=1000)
+			pulse_chnl2=0;
+  }
+
+**************************************************************************
+
+	TIM_OC_InitTypeDef myPWM1;
+	myPWM1.OCMode = TIM_OCMODE_PWM1;
+	myPWM1.OCPolarity = TIM_OCPOLARITY_HIGH;
+	HAL_TIM_PWM_ConfigChannel(&htim4, &myPWM1, TIM_CHANNEL_2);
+	
+	TIM_OC_InitTypeDef myPWM2;
+	myPWM2.OCMode = TIM_OCMODE_PWM1;
+	myPWM2.OCPolarity = TIM_OCPOLARITY_HIGH;
+	HAL_TIM_PWM_ConfigChannel(&htim4, &myPWM2, TIM_CHANNEL_4);
+	
+	uint32_t pulse_chnl2 = 0;
+	uint32_t pulse_chnl4 = 1000;
+
+  while (1)
+  {
+		
+		HAL_TIM_PWM_Stop(&htim4, TIM_CHANNEL_2);
+		HAL_TIM_PWM_Stop(&htim4, TIM_CHANNEL_4);
+		
+		pulse_chnl2+=40;
+		pulse_chnl4-=40;
+		
+		myPWM1.Pulse=pulse_chnl2;
+		myPWM2.Pulse=pulse_chnl4;
+		
+		HAL_TIM_PWM_ConfigChannel(&htim4, &myPWM1, TIM_CHANNEL_2);
+		HAL_TIM_PWM_ConfigChannel(&htim4, &myPWM2, TIM_CHANNEL_4);
+		
+		HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_2);
+		HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_4);
+		
+		HAL_Delay(100);
+		
+		if (pulse_chnl2>=1000)
+			pulse_chnl2=0;
+		
+		if (pulse_chnl2<=0)
+			pulse_chnl4=1000;
+
+  }
+
+**************************************************************************
+
+
+

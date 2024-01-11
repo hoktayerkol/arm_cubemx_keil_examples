@@ -1,0 +1,657 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Oktay Oktay, Oktay, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.8.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Oktay Erkol\Desktop\arm\ders_arm_cubemx\ok2\s18_USB\prj.uvprojx
+Project File Date:  02/09/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/main.c(20): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\main.h(30): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/main.c(20): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\main.h(30): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/main.c(20): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\main.h(30): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/main.c(21): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\usb_device.h(32): error: 'usbd_def.h' file not found
+#include "usbd_def.h"
+         ^~~~~~~~~~~~
+6 warnings and 1 error generated.
+compiling main.c...
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c(21): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\main.h(30): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c(21): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\main.h(30): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c(21): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\main.h(30): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c(70): warning: function 'NMI_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c(85): warning: function 'HardFault_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c(100): warning: function 'MemManage_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c(115): warning: function 'BusFault_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c(130): warning: function 'UsageFault_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c(21): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\main.h(30): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(101): warning: padding struct 'PCD_HandleTypeDef' with 3 bytes to align 'IN_ep' [-Wpadded]
+  PCD_EPTypeDef           IN_ep[16];   /*!< IN endpoint parameters            */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(105): warning: padding struct 'PCD_HandleTypeDef' with 2 bytes to align 'ErrorCode' [-Wpadded]
+  __IO  uint32_t          ErrorCode;   /*!< PCD Error code                    */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(108): warning: padding struct 'PCD_HandleTypeDef' with 3 bytes to align 'BESL' [-Wpadded]
+  uint32_t                BESL;
+                          ^
+14 warnings generated.
+compiling stm32f4xx_it.c...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c(36): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c(36): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c(36): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+6 warnings generated.
+compiling stm32f4xx_hal.c...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c(108): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c(108): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c(108): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+6 warnings generated.
+compiling stm32f4xx_hal_gpio.c...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c(81): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c(81): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c(81): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c(215): warning: function 'HAL_NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c(81): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(290): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_cortex.h(52): warning: padding struct 'MPU_Region_InitTypeDef' with 2 bytes to align 'BaseAddress' [-Wpadded]
+  uint32_t               BaseAddress;           /*!< Specifies the base address of the region to protect.                           */
+                         ^
+8 warnings generated.
+compiling stm32f4xx_hal_cortex.c...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c(57): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c(57): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c(57): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+6 warnings generated.
+compiling stm32f4xx_hal_hcd.c...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c(58): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c(58): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c(58): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c(58): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(101): warning: padding struct 'PCD_HandleTypeDef' with 3 bytes to align 'IN_ep' [-Wpadded]
+  PCD_EPTypeDef           IN_ep[16];   /*!< IN endpoint parameters            */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(105): warning: padding struct 'PCD_HandleTypeDef' with 2 bytes to align 'ErrorCode' [-Wpadded]
+  __IO  uint32_t          ErrorCode;   /*!< PCD Error code                    */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(108): warning: padding struct 'PCD_HandleTypeDef' with 3 bytes to align 'BESL' [-Wpadded]
+  uint32_t                BESL;
+                          ^
+9 warnings generated.
+compiling stm32f4xx_hal_pcd.c...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c(24): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c(24): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c(24): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c(24): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(101): warning: padding struct 'PCD_HandleTypeDef' with 3 bytes to align 'IN_ep' [-Wpadded]
+  PCD_EPTypeDef           IN_ep[16];   /*!< IN endpoint parameters            */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(105): warning: padding struct 'PCD_HandleTypeDef' with 2 bytes to align 'ErrorCode' [-Wpadded]
+  __IO  uint32_t          ErrorCode;   /*!< PCD Error code                    */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(108): warning: padding struct 'PCD_HandleTypeDef' with 3 bytes to align 'BESL' [-Wpadded]
+  uint32_t                BESL;
+                          ^
+9 warnings generated.
+compiling stm32f4xx_hal_pcd_ex.c...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c(24): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c(24): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c(24): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c(379): warning: unused parameter 'Regulator' [-Wunused-parameter]
+void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry)
+                                     ^
+7 warnings generated.
+compiling stm32f4xx_hal_pwr.c...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c(23): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c(23): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c(23): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+6 warnings generated.
+compiling stm32f4xx_hal_pwr_ex.c...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c(67): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c(67): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c(67): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+6 warnings generated.
+compiling stm32f4xx_hal_rcc.c...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c(23): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c(23): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c(23): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+6 warnings generated.
+compiling stm32f4xx_hal_rcc_ex.c...
+C:/Users/Oktay Erkol/Desktop/arm/ders_arm_cubemx/ok2/s18_USB/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_hal_msp.c(22): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\main.h(30): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/Desktop/arm/ders_arm_cubemx/ok2/s18_USB/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_hal_msp.c(22): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\main.h(30): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/Desktop/arm/ders_arm_cubemx/ok2/s18_USB/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_hal_msp.c(22): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\main.h(30): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+6 warnings generated.
+compiling stm32f4xx_hal_msp.c...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c(42): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c(42): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c(42): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(194): warning: padding struct 'USB_OTG_HCTypeDef' with 1 byte to align 'xfer_buff' [-Wpadded]
+  uint8_t   *xfer_buff;         /*!< Pointer to transfer buffer.                                                */
+             ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(208): warning: padding struct 'USB_OTG_HCTypeDef' with 2 bytes to align 'dma_addr' [-Wpadded]
+  uint32_t  dma_addr;           /*!< 32 bits aligned transfer buffer address.                                   */
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(163): warning: padding size of 'USB_OTG_HCTypeDef' with 2 bytes to alignment boundary [-Wpadded]
+typedef struct
+        ^
+9 warnings generated.
+compiling stm32f4xx_ll_usb.c...
+assembling startup_stm32f407xx.s...
+RTE/Device/STM32F407VGTx/system_stm32f4xx.c(48): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(287): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(286): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_dma.h(109): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  HAL_DMA_STATE_ABORT             = 0x05U,  /*!< DMA Abort state                     */
+                                         ^~
+RTE/Device/STM32F407VGTx/system_stm32f4xx.c(48): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(287): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  LPM_L3 = 0x03, /* off */
+               ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(69): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_LPM_L1_ACTIVE = 0x01, /* LPM L1 sleep */
+                          ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(79): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+  PCD_BCD_DISCOVERY_COMPLETED       = 0x00,
+                                          ^
+RTE/Device/STM32F407VGTx/system_stm32f4xx.c(48): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f4xx.h(287): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h(29): warning: In file included from...
+./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc\stm32f4xx_hal_conf.h(426): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal_pcd.h(28): warning: In file included from...
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(146): warning: padding struct 'USB_OTG_EPTypeDef' with 1 byte to align 'tx_fifo_num' [-Wpadded]
+  uint16_t  tx_fifo_num;          /*!< Transmission FIFO number
+            ^
+C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h(149): warning: padding struct 'USB_OTG_EPTypeDef' with 2 bytes to align 'maxpacket' [-Wpadded]
+  uint32_t  maxpacket;            /*!< Endpoint Max packet size
+            ^
+6 warnings generated.
+compiling system_stm32f4xx.c...
+".\Objects\prj.axf" - 1 Error(s), 110 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                project-path/Keil.FrameworkCubeMX.1.0.0.pack
+                Keil.FrameworkCubeMX.1.0.0
+                STM32CubeMX generated pack description
+   * Component: STM32CubeMX Version: 1.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.0.pack
+                Keil.STM32F4xx_DFP.2.17.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: Common Version: 1.8.1
+   * Component: Cortex Version: 1.8.1
+   * Component: GPIO Version: 1.8.1
+   * Component: HCD Version: 1.8.1
+   * Component: PCD Version: 1.8.1
+   * Component: PWR Version: 1.8.1
+   * Component: RCC Version: 1.8.1
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F407VGTx
+  ./RTE/Device/STM32F407VGTx/STCubeGenerated
+  ./RTE/Device/STM32F407VGTx/STCubeGenerated/Inc
+  ./RTE/_Target_1
+  C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+  C:/Users/Oktay Erkol/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/STM32F4xx_HAL_Driver/Inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Device:STM32Cube Framework:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:STM32Cube Framework:STM32CubeMX:1.1.0
+      Include file:  MX_Device.h
+      Include file:  STCubeGenerated/Inc/stm32f4xx_hal_conf.h
+      Source file:   STCubeGenerated/Src/stm32f4xx_hal_msp.c
+
+   * Component: Keil::Device:STM32Cube HAL:Common:1.8.1
+      Include file:  Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex:1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO:1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:HCD:1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
+
+   * Component: Keil::Device:STM32Cube HAL:PCD:1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR:1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC:1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK/Device/Source/ARM/STM32F40xxx_41xxx_OPT.s
+      Source file:   MDK/Device/Source/ARM/STM32F4xx_OTP.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f407xx.s
+      Include file:  Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
